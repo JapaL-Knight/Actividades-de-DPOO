@@ -1,0 +1,31 @@
+usuario (personas puntuales), requerimientos funcionales y no funcionales, restricciones, problema que resolver 
+
+las personas que administran y/o coordinan el sistema de buses trasmilenio y buses SITP se ven en la necesidad de hacer cambios como eliminar, agregar, remplazar a los componentes de los sistemas que administran. los sistemas que pueden recibir modificaciones son: rutas, estaciones, paradas, buses y operadores. estos cambios son usados para solucionar casos de cierre de rutas, incapacidad de operadores, integracion y cierre de nuevas paradas/estaciones, avería de buses a los sistemas.
+
+
+usuario:
+
+administradores y/o coordinadores del sistema de buses trasmilenio  y buses SITP
+
+
+restricciones:
+
+-Solo administra buses de transmilenio y SITP azules.
+-No rastrea las estaciones o paradas que visita el usuario.
+-Un bus solo puede ser conducido por un operador, y este operador solo puede conducir ese bus.
+-Un bus SITP solo puede tener una ruta de paradas.
+-un bus transmilenio solo puede tener una ruta de estaciones.
+
+
+
+Requerimientos funcionales.
+
+yo como administrador y/o coordinan el sistema de buses trasmilenio y buses SITPs quiero poder eliminar rutas, estaciones, paradas, operadores y buses.
+
+yo como administrador y/o coordinan el sistema de buses trasmilenio y buses SITPs quiero poder agregar rutas, estaciones, paradas, operadores y buses.
+
+yo como administrador y/o coordinan el sistema de buses trasmilenio y buses SITPs quiero poder remplazar rutas, estaciones, paradas, operadores y buses.
+
+Requerimientos no funcionales.
+
+
